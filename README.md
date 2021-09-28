@@ -48,8 +48,22 @@ Smart Beta ETFs can be designed with both of these two general methods (among ot
 
 For a complete list, check `requirements.txt`
 
-# Sample Results
+
+## Portfolio Optimization Strategy
+
+Create a second portfolio that still reuses the market cap weighted index, but it will be independent of the dividend-weighted portfolio that was created in part 1.
+
+>**Objective**:  We want to both minimize the portfolio variance and also want to closely track a market cap weighted index.  In other words, we're trying to minimize the distance between the weights of our portfolio and the weights of the index.
+
+$Minimize \left [ \sigma^2_p + \lambda \sqrt{\sum_{1}^{m}(weight_i - indexWeight_i)^2} \right  ]$ where $m$ is the number of stocks in the portfolio, and $\lambda$ is a scaling factor that you can choose.
+
+**Why?**
+
+One way that investors evaluate a fund is by how well it tracks its index. The fund is still expected to deviate from the index within a certain range in order to improve fund performance.  A way for a fund to track the performance of its benchmark is by keeping its asset weights similar to the weights of the index.  We’d expect that if the fund has the same stocks as the benchmark, and also the same weights for each stock as the benchmark, the fund would yield about the same returns as the benchmark. By minimizing a linear combination of both the portfolio risk and distance between portfolio and benchmark weights, we attempt to balance the desire to minimize portfolio variance with the goal of tracking the index.
+## Sample Results
 
 ETF and index cumulative returns
 ![etf](/graphs/smart_beta_etf.png)
 
+Optimized ETF vs Index
+![optim](/graphs/optim.png)
