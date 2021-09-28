@@ -9,7 +9,7 @@
 - find the optimal rebalancing Frequency. 
 
 ## Data
-end of day from Quotemedia.
+End of day from Quotemedia. Found in data folder
 
 ## Overview
 
@@ -47,3 +47,9 @@ Smart Beta ETFs can be designed with both of these two general methods (among ot
 - `helper`, `project_helper`, and `project_tests`. These are custom packages built to help solve the problems.  The `helper` and `project_helper` module contains utility functions and graph functions. The `project_tests` contains the unit tests for all the problems.
 
 For a complete list, check `requirements.txt`
+
+# Sample Results
+
+ETF and index cumulative returns
+![etf](/graphs/smart_beta_etf.png)
+
