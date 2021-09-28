@@ -55,9 +55,10 @@ For a complete list, check `requirements.txt`
 Create a second portfolio that still reuses the market cap weighted index, but it will be independent of the dividend-weighted portfolio that was created in part 1.
 
 >**Objective**:  We want to both minimize the portfolio variance and also want to closely track a market cap weighted index.  In other words, we're trying to minimize the distance between the weights of our portfolio and the weights of the index.
+<br>
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=$Minimize \left [ \sigma^2_p + \lambda \sqrt{\sum_{1}^{m}(weight_i - indexWeight_i)^2} \right  ]$" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
- where $m$ is the number of stocks in the portfolio, and $\lambda$ is a scaling factor that you can choose.
+![equ](/graphs/equ.png)
+<br>
 
 **Why?**
 
