@@ -1,5 +1,8 @@
 # Smart Beta Portfolio and Portfolio Optimization
 
+## Reference and Project Description
+[Artificial Intelligence for Trading on Udacity](https://www.udacity.com/course/ai-for-trading--nd880)
+
 ## Objective
 
 - build a smart beta portfolio and compare it to a benchmark index. 
