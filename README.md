@@ -57,7 +57,7 @@ Create a second portfolio that still reuses the market cap weighted index, but i
 >**Objective**:  We want to both minimize the portfolio variance and also want to closely track a market cap weighted index.  In other words, we're trying to minimize the distance between the weights of our portfolio and the weights of the index.
 <br>
 
-![equ](/graphs/equ.png)
+![equ](/graphs/equn.png)
 <br>
 
 **Why?**
