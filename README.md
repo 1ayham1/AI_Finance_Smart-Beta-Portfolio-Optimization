@@ -1,7 +1,5 @@
 # Smart Beta Portfolio and Portfolio Optimization
 
-## Reference and Project Description
-[Artificial Intelligence for Trading on Udacity](https://www.udacity.com/course/ai-for-trading--nd880)
 
 ## Objective
 
@@ -70,3 +68,8 @@ ETF and index cumulative returns
 
 Optimized ETF vs Index
 ![optim](/graphs/optim.png)
+
+
+## Reference, Project Description, Startup code
+[Artificial Intelligence for Trading on Udacity](https://www.udacity.com/course/ai-for-trading--nd880)
+
